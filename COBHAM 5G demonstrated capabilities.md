@@ -14,13 +14,17 @@ demo-at-mwc/
 • Dual connectivity demo with scenarios toward 4G/5G Dual Connectivity use cases  
 • In partnership with Tier 1 operator  
 >– 4G/5G waveform aggregator for SDAI (MWC’16)  
+
 • https://www.youtube.com/watch?v=3sq7927HV7Q&feature=youtu.be  
 • Software Defined Air Interface (SDAI) with dynamic 4G/5G waveform aggregation (based on service)  
 • In partnership with Tier 1 operator  
 >– Massive MIMO demonstrator (MWC’16)  
+
 • https://www.youtube.com/watch?v=3sq7927HV7Q&feature=youtu.be  
 • Performance evaluation of massive MIMO technology (up to 128 antenna elements)  
 >– Massive IoT modelling (MWC’16)  
+
 • https://www.youtube.com/watch?v=3sq7927HV7Q&feature=youtu.be  
 • Modelling of 0.5 million devices accessing the channel: traffic generatorl and test configuration wizzard   
 >– More material available @ http://resources.cobhamwireless.com/5G  
+
