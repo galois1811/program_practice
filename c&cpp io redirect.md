@@ -1,3 +1,4 @@
+```c
 /*test_io.h*/
 
 #include <ios>
@@ -126,3 +127,4 @@ void TEST_IO::cstdio_revert()
         freopen("CON", "w", stdout);
     }
 }
+```
