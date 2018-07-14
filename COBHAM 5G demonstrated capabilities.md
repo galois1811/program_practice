@@ -1,11 +1,14 @@
 • Cobham Wireless 5G capabilities  
 >– Pre-3GPP 5G test bed for fast 5G waveform/L2 demonstration  
+
 • https://youtu.be/wjjWs3kNU_8  
 • Early prototyping of L1/L2 5G functionalities  
 >– Pre-3GPP 5G prototype @10Gbps based on Verizon specifications (MWC 2017)  
+
 • https://youtu.be/CBPD348C2eA  
 • 4 CC 8x8 : 10 Gbps throughput  
 >– Multi-connectivity (MWC’17)  
+
 • http://cobhamwireless.com/press-and-events/press-releases/cobham-partners-with-china-mobile-for-dualconnectivity-
 demo-at-mwc/  
 • Dual connectivity demo with scenarios toward 4G/5G Dual Connectivity use cases  
