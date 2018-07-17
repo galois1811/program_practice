@@ -1,9 +1,9 @@
-Hacker News
+## Hacker News
 https://news.ycombinator.com/
 
 
-InfoQ
+## InfoQ
 https://www.infoq.com/
 
-HighScalability
+## HighScalability
 http://highscalability.com/
