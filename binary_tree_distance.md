@@ -11,9 +11,6 @@ typedef struct node_tag
 }node;
 
 
-unsigned int g_left_subtree_max_dist = 0;
-unsigned int g_right_subtree_max_distance = 0;
-
 void get_max_depth_of_tree(node *root_node, unsigned int *depth)
 {
     unsigned int left_subtree_depth, right_subtree_depth;
