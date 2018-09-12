@@ -28,15 +28,8 @@ void get_max_depth_of_tree(node *root_node, unsigned int *depth)
     left_subtree_depth = *depth;
     right_subtree_depth = *depth;
 
-    if (root_node->lchild)
-    {
-        get_max_depth_of_tree(root_node->lchild, &left_subtree_depth);
-    }
-
-    if (root_node->rchild)
-    {
-        get_max_depth_of_tree(root_node->rchild, &right_subtree_depth);
-    }
+    get_max_depth_of_tree(root_node->lchild, &left_subtree_depth);
+    get_max_depth_of_tree(root_node->rchild, &right_subtree_depth);
 
     *depth = (left_subtree_depth > right_subtree_depth) ? left_subtree_depth : right_subtree_depth;
 }
