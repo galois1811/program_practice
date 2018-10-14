@@ -17,9 +17,9 @@
 │  │          ├─qt
 │  │          └─text
 │  └─lib
-├─project       (makefie所在路径)
-├─source        (源码所在路径)
-└─testcase      (测试用例所在路径)
+├─project       (makefie所在目录)
+├─source        (源码所在目录)
+└─testcase      (测试用例所在目录)
 </pre>
 
 
