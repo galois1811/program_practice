@@ -1,6 +1,28 @@
 [GNU make](https://www.gnu.org/software/make/manual/make.html)
  
 
+## 以如下的目录结构为例的makefile demo
+<pre>
+├─.vscode
+├─cppunit
+│  ├─include
+│  │  └─cppunit
+│  │      ├─config
+│  │      ├─extensions
+│  │      ├─plugin
+│  │      ├─portability
+│  │      ├─tools
+│  │      └─ui
+│  │          ├─mfc
+│  │          ├─qt
+│  │          └─text
+│  └─lib
+├─project       (makefie所在路径)
+├─source        (源码所在路径)
+└─testcase      (测试用例所在路径)
+</pre>
+
+
  ```make
  ROOT_DIR = ..
 
