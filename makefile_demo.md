@@ -13,9 +13,9 @@
 │  │      ├─portability
 │  │      ├─tools
 │  │      └─ui
-│  │          ├─mfc
-│  │          ├─qt
-│  │          └─text
+│  │        ├─mfc
+│  │        ├─qt
+│  │        └─text
 │  └─lib
 ├─project       (makefie所在目录)
 ├─source        (源码所在目录)
