@@ -11,3 +11,10 @@ http://highscalability.com/
 
 ## stack-overflow
 https://stackoverflow.com/
+
+## LLVM
+http://llvm.org/pubs/2002-12-LattnerMSThesis.html  
+http://dragonegg.llvm.org/  
+http://clang.llvm.org/  
+http://llvm.org/pubs/  
+http://llvm.org/docs/  
