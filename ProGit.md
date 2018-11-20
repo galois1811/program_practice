@@ -12,3 +12,10 @@ https://git-scm.com/book/zh/v2
 
 # git图解  
 http://marklodato.github.io/visual-git-guide/index-zh-cn.html
+
+# 常见问题
+> Unlink of file '.git/objects/pack/pack-***.pack' failed. Should I try again? (y/n)
+```bash
+git gc --auto  
+git repack -d -l   
+```
