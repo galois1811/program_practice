@@ -18,4 +18,7 @@ http://dragonegg.llvm.org/
 http://clang.llvm.org/  
 http://llvm.org/pubs/  
 http://llvm.org/docs/  
-http://blog.llvm.org/2010/04/amazing-feats-of-clang-error-recovery.html
+http://blog.llvm.org/2010/04/amazing-feats-of-clang-error-recovery.html  
+  
+## software architecture
+[软件架构风格汇总](https://blog.csdn.net/zhou2s_101216/article/details/52832891)
