@@ -3,3 +3,4 @@
 [architecture](https://source.android.com/devices/architecture)  
 [tests(compatibility test suite & vender test suite)](https://source.android.com/compatibility/tests)  
 [gerrit-jenkins-notes.pdf](http://strongspace.com/rtyler/public/gerrit-jenkins-notes.pdf)  
+[清华大学ASOP镜像](https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/)  
