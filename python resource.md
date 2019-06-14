@@ -6,3 +6,6 @@
 ## python教程
 [A Byte Of Python](https://python.swaroopch.com/)  
 [Download PDF](https://www.gitbook.com/download/pdf/book/swaroopch/byte-of-python)
+
+## matplotlib color example
+[color example code](https://matplotlib.org/examples/color/colormaps_reference.html)
