@@ -24,4 +24,7 @@ http://blog.llvm.org/2010/04/amazing-feats-of-clang-error-recovery.html
 [软件架构风格汇总](https://blog.csdn.net/zhou2s_101216/article/details/52832891)
 
 ## NCSC
-[produce clean & maintainable code](https://www.ncsc.gov.uk/guidance/produce-clean-maintainable-code)
+[produce clean & maintainable code](https://www.ncsc.gov.uk/guidance/produce-clean-maintainable-code)  
+
+## 一个不错的技术博客
+[技术博客](https://liam.page/series/)  
