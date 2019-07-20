@@ -5,7 +5,7 @@
   
     
 ```bash
-$ repo init -u git://codeaurora.org/platform/manifest.git -b release -m [manifest] --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
+$ repo init -u git://codeaurora.org/platform/manifest.git -b release -m LA.UM.7.1.r1-15300-sm8150.0.xml --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
 $ repo sync
 ```
 其中manifest参考androidreleases里面的，855对应的应该是代号为msmnile 的chipset，即manifest使用 LA.UM.7.1.r1-15100-sm8150.0.xml
