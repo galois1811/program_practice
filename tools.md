@@ -11,3 +11,6 @@ http://www.ddooo.com/softdown/143774.htm#dltab
 
 ## Jupyter + Cling: Interactive C++
 https://isocpp.org/blog/2017/11/jupyter-cling-interactive-cpp  
+
+## GifCam
+http://blog.bahraniapps.com/gifcam/  
