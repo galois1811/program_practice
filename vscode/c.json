@@ -1,0 +1,136 @@
+{
+	"multi-line comment":{
+		"prefix": "mc",
+		"body": "/*\n * ${1:多行注释}\n */$0"
+	},
+	"single line comment":{
+		"prefix": "sc",
+		"body": "/* ${1:单行注释} */$0"
+	},
+	"main()":{
+		"prefix": "main",
+		"body": "int main(int argc, char const *argv[])\n{\n\t$0\n\treturn 0;\n}"
+	},
+	"For Loop":{
+		"prefix": "for",
+		"body": "for (${1:int} ${2:i} = ${3:0}; ${2:i} ${4:<} ${5:count}; ${2:i}${6:++}) {\n\t$0\n}"
+	},
+	"Define and For Loop":{
+		"prefix": "dfor",
+		"body": "int ${1:i};\nfor (${1:i} = ${2:0}; ${1:i} < ${3:count}; ${1:i}${4:++}) {\n\t$0\n}"
+	},
+	"struct":{
+		"prefix": "struct",
+		"body": "struct ${1:StructName} {\n\t$0\n};"
+	},
+	"Typedef Struct":{
+		"prefix": "tstruct",
+		"body": "typedef struct {\n\t$0\n} ${1:MyCustomType};"
+	},
+	"Enumeration":{
+		"prefix": "enum",
+		"body": "enum ${1:EnumType} {\n\t$0\n};"
+	},
+	"typdef enum":{
+		"prefix": "tenum",
+		"body": "typedef enum {\n\t$0\n} ${1:EnumType};"
+	},
+	"Do While Loop":{
+		"prefix": "do",
+		"body": "do {\n\t$0\n} while ($1);"
+	},
+	"While Loop":{
+		"prefix": "while",
+		"body": "while ($1) {\n\t$0\n}"
+	},
+	"if":{
+		"prefix": "if",
+		"body": "if ($0) {\n\t\n}"
+	},
+	"else":{
+		"prefix": "else",
+		"body": "else {\n\t$0\n}"
+	},
+	"else if":{
+		"prefix": "else if",
+		"body": "else if ($0) {\n\t\n}"
+	},
+	"Switch Statement":{
+		"prefix": "switch",
+		"body": "switch ($0) {\ncase :\n\t\n\tbreak;\ndefault :\n\t\n\tbreak;\n}"
+	},
+	"case break":{
+		"prefix": "case",
+		"body": "case $0:\n\t\n\tbreak;\n"
+	},
+	"printf":{
+		"prefix": "printf",
+		"body": "printf(\"${1:%s}\\n\", $2);$3"
+	},
+	"array size":{
+		"prefix": "asize",
+		"body": "sizeof(${1:arrayName})/sizeof($1[0])"
+	},
+	"define ARRAY_SIZE macro":{
+		"prefix": "defas",
+		"body": "#define ARRAY_SIZE(${1:arrayName}) (sizeof($1)/sizeof($1[0]))\n$0"
+	},
+	"define MAX":{
+		"prefix": "defmax",
+		"body": "#define MAX(x, y) ((x) > (y) ? (x) : (y))"
+	},
+	"define MIN":{
+		"prefix": "defmin",
+		"body": "#define MIN(x, y) ((x) < (y) ? (x) : (y))"
+	},
+	"Header Include-Guard":{
+		"prefix": "once",
+		"body": "#ifndef ${1:SYMBOL}\n#define $1\n\n$0\n\n#endif /* $1 */"
+		},
+	"Typedef":{
+		"prefix": "typedef",
+		"body": "typedef ${1:int} ${2:MyCustomType};"
+	},
+	"#ifndef … #define … #endif":{
+		"prefix": "def",
+		"body": "#ifndef ${1:SYMBOL}\n#define $1 ${2:value}\n#endif\t// ${1:SYMBOL}"
+	},
+	"#include <>":{
+		"prefix": "Inc",
+		"body": "#include <${1:.h}>"
+	},
+	"#include \"\"":{
+		"prefix": "inc",
+		"body": "#include \"${1:.h}\""
+	},
+
+	"#pragma mark":{
+	"prefix": "mark",
+	"body": "#if 0\n${1:#pragma mark -\n}#pragma mark $2\n#endif\n\n$0"
+	},
+	"fprintf":{
+	"prefix": "fprintf",
+	"body": "fprintf(${1:stderr}, \"${2:%s}\\\\n\", $3);$4"
+	},
+	"scanf":{
+	"prefix": "scanf",
+	"body": "scanf(\"${1:%s}\\n\", $2);$3"
+	},
+	"void":{
+	"prefix": "void",
+	"body": "void ${1:name}($2) {\n\t$3\n}"
+	},
+	"any function":{
+	"prefix": "func",
+	"body": "${1:int} ${2:name}($3) {\n\t$5\n\treturn ${4:0};\n}"
+	},
+	"write file":{
+	"prefix": "wf",
+	"body": "FILE *${1:fp};\n${1:fp} = fopen (\"${2:filename.txt}\",\"w\");\nif (${1:fp}!=NULL)\n{\n\tfprintf(${1:fp},\"${3:Some String\\\\n}\");\n\tfclose (${1:fp});\n}"
+	},
+	"read file":{
+	"prefix": "rf",
+	"body": "FILE *${1:fp};\n${1:fp} = fopen (\"${2:filename.txt}\",\"r\");\nif (${1:fp}!=NULL)\n{\n\tfscanf(${1:fp},\"${3:Some String\\\\n}\", ${3:&var});\n\tfclose (${1:fp});\n}",
+	"description": "read file opeartion including fopen, fscanf and fclose."
+	}
+}
